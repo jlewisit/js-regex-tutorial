@@ -55,6 +55,7 @@ Anything inside a set of square brackets ([]) represents a range of characters t
 ### Character Classes
 
 ### The OR Operator
+The OR Operator is the pike character (|).  In our expression, it is contained within the grouping construct between the two character classes and their quantifiers.  In our expression it means that we can have 6 OR 3 characters after the #.
 
 ### Flags
 
