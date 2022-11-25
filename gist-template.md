@@ -1,4 +1,4 @@
-# JS Regex Tutorial
+# JS Regex Tutorial - Matching a Hexadecimal Value
 
 This file explains the components of the reqular expression (regex) for matching a hexadecimal value and describes in detail how each component works.  Regular expressions are a series of character that define a search pattern.
 
