@@ -63,8 +63,10 @@ If the character class were [w-z], the characters that would match would be: 'w'
 The OR Operator is the pike character (|).  In our expression, it is contained within the grouping construct between the two character classes and their quantifiers.  In our expression it means that we can have 6 OR 3 characters after the #.
 
 ### Flags
+There are a number of flags that can be placed after the slash in regex expressions to add or limit functionality.  They do not apply to our regex example, so please google regex flags to learn more.
 
 ### Character Escapes
+The backslash \ in a regex escapes a character that otherwise would be interpreted literally. For example, the open curly brace ({) is used to begin a quantifier, but adding a backslash before the open curly brace \{ means that the regex should look for the open curly brace character instead of beginning to define a quantifier. Character escapes do not apply to our example regex, so please google regex character escapes to learn more.
 
 ## Author
 
