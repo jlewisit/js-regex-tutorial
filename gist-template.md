@@ -1,12 +1,23 @@
 # JS Regex Tutorial
 
-Introductory paragraph (replace this with your text)
+This file explains the components of the reqular expression (regex) for matching a hexadecimal value and describes in detail how each component works.  Regular expressions are a series of character that define a search pattern.
 
 ## Summary
 
 Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
 
+We'll call the following regex example 'Matching a Hex Value':
 * Matching a Hex Value: `/^#?([a-f0-9]{6}|[a-f0-9]{3})$/`
+
+Here is a brief summary of the above regex breaks down and we'll get into more detail later:
+
+* The string must begin with the literel character #
+* The string can contain any letter characters from a-f
+* The string can contain any number characters from 0-9
+* The string must contain a total of 6 or 3 characters after #
+
+I will explain how the regex above checks to see if a string fulfills the requirements for a hex value.  An example of a hex value is #3cb371 which is for a shade of the color green.
+
 
 
 ## Table of Contents
