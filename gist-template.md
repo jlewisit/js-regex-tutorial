@@ -53,6 +53,11 @@ Grouping constructs indicate groups and ranges of expression characters. The gro
 Anything inside a set of square brackets ([]) represents a range of characters that we want to match. These patterns are known as bracket expressions.  In the 'Matching a Hex Value' regex, it is the [a-f0-9] component, where the value is made up of characters between a-f and/or 0-9.  The quantity of charachers will match the amount detailed in the proceeding quantifier {6} or {3}.
 
 ### Character Classes
+Character classes distinguish kinds of characters such as, distinguishing between letters and digits. For our 'Matching a Hex Value' regex, the [a-f0-9] is the character class which is repeated twice with different quantifiers attached to each one.
+
+Inside the character class there are two ranges mentioned, a-f and 0-9. As long as the characters used in the character classes are a-f and/or 0-9 and as long as the proceeding quantifier is matched, the value used as the hex value will work in the regular expression.
+
+If the character class were [w-z], the characters that would match would be: 'w', 'x', 'y' or 'z'.
 
 ### The OR Operator
 The OR Operator is the pike character (|).  In our expression, it is contained within the grouping construct between the two character classes and their quantifiers.  In our expression it means that we can have 6 OR 3 characters after the #.
