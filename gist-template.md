@@ -16,9 +16,7 @@ Here is a brief summary of the above regex breaks down and we'll get into more d
 * The string can contain any number characters from 0-9
 * The string must contain a total of 6 or 3 characters after #
 
-I will explain how the regex above checks to see if a string fulfills the requirements for a hex value.  An example of a hex value is #3cb371 which is for a shade of the color green.
-
-
+An example of a hex value is #3cb371 which is for a shade of the color green.
 
 ## Table of Contents
 
@@ -48,9 +46,8 @@ Quantifiers set the limits of the string that your regex matches.  The quantifie
 
 {3} matches the previous token exactly 3 times.
 
-
-
 ### Grouping Constructs
+Grouping constructs indicate groups and ranges of expression characters. The grouping construct in our 'Matching a Hex Value' regex is ([a-f0-9]{6}|[a-f0-9]{3}). Inside the grouping construct is the OR Operator (|), the charater classes and the quantifiers. 
 
 ### Bracket Expressions
 Anything inside a set of square brackets ([]) represents a range of characters that we want to match. These patterns are known as bracket expressions.  In the 'Matching a Hex Value' regex, it is the [a-f0-9] component, where the value is made up of characters between a-f and/or 0-9.  The quantity of charachers will match the amount detailed in the proceeding quantifier {6} or {3}.
