@@ -54,4 +54,10 @@ Anything inside a set of square brackets ([]) represents a range of characters t
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+Joe is a full stack MERN developer focused on mobile-first design and development.  When he is not developing, he enjoys hiking, jogging, and reading up on the latest trends in web development.
+
+GitHub:
+https://github.com/jlewisit
+
+Portfolio:
+https://jlewisit.github.io/portfolio/
