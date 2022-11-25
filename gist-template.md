@@ -29,6 +29,15 @@ The ^ and $ characters are both considered achors.  The ^ anchor signifies a str
 So in our 'Matching a Hex Value' regex, the string must start and end with something that matches the pattern #?([a-f0-9]{6}|[a-f0-9]{3}).
 
 ### Quantifiers
+Quantifiers set the limits of the string that your regex matches.  The quantifiers used in the 'Matching a Hex Value' regex are ?, {6} and {3}.
+
+? matches the previous token between zero and one times, as many times as possible, giving back as needed.
+
+{6} matches the previous token exactly 6 times.
+
+{3} matches the previous token exactly 3 times.
+
+
 
 ### Grouping Constructs
 
