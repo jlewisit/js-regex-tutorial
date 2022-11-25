@@ -14,8 +14,7 @@ SO THAT I can understand the search pattern the regex defines
 
 ## Review
 
-You are required to submit the following for review:
-
 * The URL of the GitHub gist. Give the gist a unique name.
+- [Matching a Hexadecimal Value](https://github.com/jlewisit/js-regex-tutorial/blob/main/gist-template.md)
 
-https://github.com/jlewisit/js-regex-tutorial/blob/main/gist-template.md
+
