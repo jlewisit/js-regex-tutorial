@@ -42,7 +42,7 @@ Quantifiers set the limits of the string that your regex matches.  The quantifie
 ### Grouping Constructs
 
 ### Bracket Expressions
-Anything inside a set of square brackets ([]) represents a range of characters that we want to match. These patterns are known as bracket expressions.
+Anything inside a set of square brackets ([]) represents a range of characters that we want to match. These patterns are known as bracket expressions.  In the 'Matching a Hex Value' regex, it is the [a-f0-9] component, where the value is made up of characters between a-f and/or 0-9.  The quantity of charachers will match the amount detailed in the proceeding quantifier {6} or {3}.
 
 ### Character Classes
 
