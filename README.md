@@ -14,7 +14,6 @@ SO THAT I can understand the search pattern the regex defines
 
 ## Review
 
-* The URL of the GitHub gist. Give the gist a unique name.
 - [Matching a Hexadecimal Value](https://github.com/jlewisit/js-regex-tutorial/blob/main/gist-template.md)
 
 
