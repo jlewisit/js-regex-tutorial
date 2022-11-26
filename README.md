@@ -14,6 +14,6 @@ SO THAT I can understand the search pattern the regex defines
 
 ## Tutorial Link
 
-- [Matching a Hexadecimal Value](https://github.com/jlewisit/js-regex-tutorial/blob/main/gist-template.md)
+- [Matching a Hexadecimal Value](https://github.com/jlewisit/js-regex-tutorial/blob/main/hexadecimal-value-regex.md)
 
 
