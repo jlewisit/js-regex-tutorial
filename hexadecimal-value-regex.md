@@ -72,6 +72,6 @@ The backslash \ in a regex escapes a character that otherwise would be interpret
 
 Joe is a full stack MERN developer focused on mobile-first design and development.  When he is not developing, he enjoys hiking, jogging, and reading up on the latest trends in web development.
 
-[GitHub](https://github.com/jlewisit)
+- [GitHub](https://github.com/jlewisit)
 
-[Portfolio](https://jlewisit.github.io/portfolio/)
+- [Portfolio](https://jlewisit.github.io/portfolio/)
