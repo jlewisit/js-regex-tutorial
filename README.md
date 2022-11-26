@@ -12,7 +12,7 @@ I WANT a tutorial explaining a specific regex
 SO THAT I can understand the search pattern the regex defines
 ```
 
-## Review
+## Tutorial Link
 
 - [Matching a Hexadecimal Value](https://github.com/jlewisit/js-regex-tutorial/blob/main/gist-template.md)
 
