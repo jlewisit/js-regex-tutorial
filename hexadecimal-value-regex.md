@@ -50,12 +50,12 @@ Quantifiers set the limits of the string that your regex matches.  The quantifie
 Grouping constructs indicate groups and ranges of expression characters. The grouping construct in our 'Matching a Hex Value' regex is ([a-f0-9]{6}|[a-f0-9]{3}). Inside the grouping construct is the OR Operator (|), the charater classes and the quantifiers. 
 
 ### Bracket Expressions
-Anything inside a set of square brackets ([]) represents a range of characters that we want to match. These patterns are known as bracket expressions.  In the 'Matching a Hex Value' regex, it is the [a-f0-9] component, where the value is made up of characters between a-f and/or 0-9.  The quantity of charachers will match the amount detailed in the proceeding quantifier {6} or {3}.
+Anything inside a set of square brackets ([]) represents a range of characters that we want to match. These patterns are known as bracket expressions.  In the 'Matching a Hex Value' regex, it is the [a-f0-9] component, where the value is made up of characters between a-f and/or 0-9.  The quantity of charachers will match the amount detailed in the subsequent quantifier {6} or {3}.
 
 ### Character Classes
 Character classes distinguish kinds of characters such as, distinguishing between letters and digits. For our 'Matching a Hex Value' regex, the [a-f0-9] is the character class which is repeated twice with different quantifiers attached to each one.
 
-Inside the character class there are two ranges mentioned, a-f and 0-9. As long as the characters used in the character classes are a-f and/or 0-9 and as long as the proceeding quantifier is matched, the value used as the hex value will work in the regular expression.
+Inside the character class there are two ranges mentioned, a-f and 0-9. As long as the characters used in the character classes are a-f and/or 0-9 and as long as the subsequent quantifier is matched, the value used as the hex value will work in the regular expression.
 
 If the character class were [w-z], the characters that would match would be: 'w', 'x', 'y' or 'z'.
 
@@ -72,8 +72,6 @@ The backslash \ in a regex escapes a character that otherwise would be interpret
 
 Joe is a full stack MERN developer focused on mobile-first design and development.  When he is not developing, he enjoys hiking, jogging, and reading up on the latest trends in web development.
 
-GitHub:
-https://github.com/jlewisit
+[GitHub](https://github.com/jlewisit)
 
-Portfolio:
-https://jlewisit.github.io/portfolio/
+[Portfolio](https://jlewisit.github.io/portfolio/)
